@@ -1,0 +1,67 @@
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    font-family: 'Gabarito', sans-serif;
+    }
+    h1{
+        margin:20px 150px;
+        background-color: palevioletred;
+        color: black;
+        text-align: center;
+        font-size:30px;
+        padding:10px;
+    }
+   .container h2{
+        font-size: 30px;
+        color:white;
+        margin-bottom: 5px;
+        
+    }
+    .container-heading{
+        margin-bottom: 10px;
+    }
+    .boxes{
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .container h5{
+        display: flex;
+        padding:2px;
+        gap: 2px;
+        margin-bottom: 2px;;
+        align-items: center;
+        font-size: 15px;
+        color:white;
+        align-items: center;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        width:200px;
+        padding:20px;
+        height: 100%;
+        background-color: black;
+        border-radius: 15px;
+        flex-wrap: wrap;
+    }
+    .content{
+        padding:30px;
+        border:solid 2px white;
+        border-radius:10%;
+
+    }
+    .container img{
+        height:20px;
+        width: 20px;
+    }
+
+ 
